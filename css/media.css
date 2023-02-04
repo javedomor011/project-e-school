@@ -1,0 +1,342 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header start */
+    .logo {
+        width: 70%;
+    }  
+    .menu ul li a{        
+        margin: 3px 0 0 9px;
+    }  
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .n-btn{
+        font-size: 16px;
+        color: #21B573;
+        border: 2px solid #21B573;
+        border-radius: 0;
+    }
+    .s-form{
+        font-size: 12px;
+    }
+    .s-btn{
+        font-size: 12px;
+    }
+    /* banner satrt */
+    .banner{
+        padding: 60px 0 60px;
+    }
+    .b-text{
+        padding: 30px 0 0;
+    }
+    .b-text h1{
+        margin: 0 auto;
+        width: 80%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .b-text p{
+        padding: 0;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .b-img{
+        padding: 0;
+    }
+     /* features start */
+     .c-title h1 { 
+        font-size: 30px;
+        line-height: 15px;    
+     }
+     .feature {
+        padding-bottom: 40px;
+    }
+     .f-card{
+        margin-top: 20px;
+        padding: 45px 0;
+        
+    }
+    /* courses satrt */
+    .c-card{
+        margin: 30px 0 0;
+        padding: 15px;
+    }
+    .c-title h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .card-body{
+        padding: 10px 0;
+    }
+      /* testimonial start */
+      .m-bottom{
+        margin-bottom: 35px;
+    }
+    .t-img {
+        margin: 0 auto;
+        padding: 0;
+        width: 50%;
+    }
+    .c-carousel [data-bs-target] {
+        width: 5px;
+        height: 5px;
+    }
+    .c-carousel .active {
+        width: 10px;
+        border-radius: 30px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .c-text{
+    }
+    .c-carousel {
+        bottom: -60px;
+    }
+    /* footer start */
+    .f-lists {
+        margin-top: 35px;
+    }
+    .f-copy {
+        margin-top: 20px;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+    .menu ul li a{        
+        margin: 5px 0 4px 9px;
+    }    
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }  
+    .n-btn{        
+        color: #21B573;
+        border: 2px solid #21B573;
+        border-radius: 0;
+    }
+    /* banner start */
+    .banner {
+        padding: 60px 0 60px;
+    }    
+    .b-text h2 {
+        margin-top: 40px;
+    }
+    .b-text h1{
+        margin: 0 auto;
+        padding: 5px 0 10px;
+        width: 58%;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .b-text p {
+        padding: 0 50px;
+        line-height: 30px;
+    }
+    .b-img{
+        padding: 0 60px;
+    }
+    /* features satrt */
+    .feature {
+        padding-bottom: 60px;
+    }    
+    .f-card {
+        margin: 30px 0 0 0;
+    }
+    /* courses start */
+    .c-card{
+        margin-bottom: 20px;
+    }
+    /* footer start */
+    .f-copy {
+        margin-top: 40px;
+    }
+    /* courses satrt */
+    .c-card{
+        margin: 30px 75px 0;
+        padding: 15px;
+    }
+    .c-title h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .card-body{
+        padding: 10px 0;
+    }
+    /* testimonial start */
+    .m-bottom{
+        margin-bottom: 35px;
+    }
+    .t-img {
+        margin: 0 auto;
+        padding: 0;
+        width: 30%;
+    }
+    .c-carousel [data-bs-target] {
+        width: 5px;
+        height: 5px;
+    }
+    .c-carousel .active {
+        width: 10px;
+        border-radius: 30px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .c-text{
+        padding: 0 20px;
+    }
+    .c-carousel {
+        bottom: -60px;
+    }
+    /* footer start */
+    .f-lists {
+        margin-top: 35px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */    
+    .menu ul li a{        
+        margin: 5px 0 4px 9px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .n-btn{
+        color: #21B573;
+        border: 2px solid #21B573;
+        border-radius: 0;
+    }
+    /* banner satrt */
+    .banner{
+        padding: 60px 0 80px;
+    }
+    .b-text{
+        padding: 40px 65px 0 65px;
+    }
+    .b-text h1{
+        margin: 0 auto;        
+        width: 65%;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .b-text p{
+        padding: 0 47px;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .b-img{
+        padding: 0 120px;
+    }
+    /* features start */
+    .f-card{
+        padding: 35px 0;
+        
+    }
+    /* courses start */
+    .c-card{
+        margin-bottom: 20px;
+    }
+    /* footer start */
+     .lists{
+        margin: 40px 0 0;
+    }
+    .f-copy {
+        margin-top: 40px;
+    }
+    /* courses satrt */
+    .c-card{
+        margin: 60px 120px 0;
+    }
+    /* testimonial start */
+    .m-bottom{
+        margin-bottom: 35px;
+    }
+    .t-img {
+        padding: 10px;
+    }
+    .c-carousel [data-bs-target] {
+        width: 5px;
+        height: 5px;
+    }
+    .c-carousel .active {
+        width: 10px;
+        border-radius: 30px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .c-text{
+        margin: 20px 30px;
+    }
+    .c-carousel {
+        bottom: -60px;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header start */
+    .menu ul li a{
+        margin-right: 15px;
+    }
+    .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FD511A !important;
+        border-bottom: 1px solid  #FD511A;
+    
+    }
+    /* banner satrt */
+    .b-text h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    /* features start */
+    .f-card{
+        padding: 35px 0;
+        margin: 40px 0 0;    
+    }
+    .f-img{
+        width: 25%;
+    }
+     /* courses start */
+     .c-footer{
+        font-size: 14px;      
+    }
+    /* testimonial start */
+    .m-bottom{
+    margin-bottom: 35px;
+    }
+    .t-img {
+        padding: 10px;
+    }
+    /* footer start */
+     .lists{
+        margin: 0;
+    }
+}
+
+ /* Extra Large devices (desktops, 992px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* header start */
+    .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FD511A !important;
+        border-bottom: 1px solid  #FD511A;
+    
+    }
+     /* footer start */
+     .lists{
+        margin: 0;
+    }
+  }
+
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    /* header start */
+    .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FD511A !important;
+        border-bottom: 1px solid  #FD511A;
+    
+    }
+    /* footer start */
+    .lists{
+        margin: 0;
+    }
+ }
+

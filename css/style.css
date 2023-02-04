@@ -1,0 +1,192 @@
+/* common start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common end */
+
+/* header start */
+.header{
+    padding: 5px 0;
+    background-color: #F0FFF0;
+}
+.c-nav{}
+.logo{
+  
+}
+.menu ul li a{
+    padding: 5px 0;
+    margin-right: 35px;
+    color: #000000 !important;
+    transition: all .2s ease-in-out;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+
+.c-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color:  #21B573;
+    border-radius: 33px;  
+    transition: all .3s ease-in-out;  
+}
+.c-btn:hover{
+    background-color: #FD511A !important;
+    color: white !important;
+}
+.s-btn{
+    padding: 10px 30px;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    padding: 60px 0 80px;
+    background-color: #F0FFF0;
+}
+.b-text{}
+.b-text h2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+
+}
+.b-text h1{
+    width: 90%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+.b-text h1 span{
+    color: #21B573;
+}
+.b-text p{
+    line-height: 36px;
+}
+.b-img{}
+
+/* banner end */
+
+/* feature start */
+.feature{
+    padding-bottom: 80px;
+}
+.f-card{
+    margin: 40px 0 0 0;    
+    padding: 45px 0;
+    background: #F8FFFB;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.f-card:hover,
+.f-card:focus {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.f-card h1{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 36px;
+}
+.f-card p{}
+.f-img{
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 20px;
+}
+/* feature end */
+
+/* courses start */
+.c-padding{
+    padding-bottom: 100px;
+}
+.c-title h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+.c-card{
+    padding: 20px;
+    border: none;
+    border-radius: 18px;    
+}
+.c-header{
+    margin-top: 5px;
+    font-size: 24px;
+}
+.cc-btn{
+    padding: 5px 28px;
+}
+.c-footer{
+    padding: 15px 0 7px;
+}
+/* courses end */
+
+/* testimonial start */
+.texttimonial{}
+.m-bottom{
+    margin-bottom: 67px;
+}
+.c-carousel{
+    bottom: -45px;
+}
+.c-carousel [data-bs-target]{
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent;
+    width: 7px;
+    height: 7px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.c-carousel .active{
+    width: 15px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);  
+}
+.t-img{
+    padding: 35px;
+}
+.t-text{
+    line-height: 30px;
+}
+/* testimonial end */
+
+/* footer satrt */
+.footer{
+    padding-bottom: 30px;
+    background-color: #282531;
+    color: white;
+}
+.f-text{}
+.f-lists{
+    margin-top: 55px;
+}
+.f-head{
+    
+}
+.lists{
+    margin: 40px 0 0;
+    padding: 0;
+}
+.lists ul li{
+    background-color: #282531;
+    color: white;
+    border: none;
+}
+.lists ul a{
+    text-decoration: none;
+}
+.f-copy{
+    margin-top: 70px;
+}
+.f-copy a{
+    color: white;
+}
+/* footer end */
